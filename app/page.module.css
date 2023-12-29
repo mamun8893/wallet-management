@@ -1,0 +1,92 @@
+.mainCardWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.mainTitle {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mainCard {
+  width: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.customDenominationGroup {
+  background: #F8F8F8;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 45px;
+}
+
+.formInput:focus {
+  outline: none;
+  border: 1px solid #1a73e8;
+}
+
+.balanceCard {
+  border-radius: 12px;
+  border: 1.867px solid #9A1313;
+  background: linear-gradient(240deg, #791A1A 0%, #151515 44.36%);
+  padding: 40px 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+/**Responsive**/
+
+@media only screen and (max-width: 767px) {
+  .mainCardWrap {
+    padding: 0px 20px;
+  }
+
+  .mainCard {
+    width: 100%;
+  }
+
+  .formGroup label {
+    font-size: 12px;
+  }
+
+  .formInput {
+    height: 40px;
+
+  }
+
+  .formInput {
+    height: 40px;
+  }
+
+  .balanceCard {
+    padding: 30px 20px;
+  }
+}
