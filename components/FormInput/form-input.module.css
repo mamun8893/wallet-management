@@ -1,0 +1,12 @@
+.formInput {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 45px;
+}
+
+.formInput:focus {
+    outline: none;
+    border: 1px solid #1a73e8;
+}
