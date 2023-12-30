@@ -28,7 +28,7 @@ Before you begin, make sure you have the following installed on your machine:
 
 ```bash
 git clone <repository-url>
-cd personal-wallet-management-app
+cd wallet-management
 ```
 
 ### Install Dependencies
